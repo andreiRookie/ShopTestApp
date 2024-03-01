@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShopTestApp</string>
+    <string name="title_logging">Вход</string>
+    <string name="title_main">Главная</string>
+    <string name="title_catalog">Каталог</string>
+    <string name="title_cart">Корзина</string>
+</resources>
