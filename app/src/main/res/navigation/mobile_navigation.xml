@@ -3,12 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_main">
+    app:startDestination="@+id/navigation_logging">
 
     <fragment
         android:id="@+id/navigation_logging"
         android:name="com.andreirookie.shop_test_app.ui.logging.LoggingFragment"
-        android:label="LoggingFragment" />
+        android:label="@string/title_logging"
+        tools:layout="@layout/fragment_logging">
+        <action
+            android:id="@+id/action_navigation_logging_to_navigation_main"
+            app:destination="@id/navigation_main" />
+        <action
+            android:id="@+id/action_navigation_logging_to_navigation_catalog"
+            app:destination="@id/navigation_catalog" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_main"
@@ -17,13 +25,13 @@
         tools:layout="@layout/fragment_main" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_catalog"
         android:name="com.andreirookie.shop_test_app.ui.catalog.CatalogFragment"
         android:label="@string/title_catalog"
         tools:layout="@layout/fragment_catalog" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_cart"
         android:name="com.andreirookie.shop_test_app.ui.cart.CartFragment"
         android:label="@string/title_cart"
         tools:layout="@layout/fragment_cart" />

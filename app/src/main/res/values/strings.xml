@@ -4,4 +4,14 @@
     <string name="title_main">Главная</string>
     <string name="title_catalog">Каталог</string>
     <string name="title_cart">Корзина</string>
+    <string name="title_promotions">Акции</string>
+    <string name="title_profile">Профиль</string>
+
+
+    <string name="hint_name">Имя</string>
+    <string name="hint_surname">Фамилия</string>
+    <string name="hint_phone_number">Номер телефона</string>
+    <string name="to_log_in">Войти</string>
+    <string name="disclaimer_first_text">Нажимая кнопку \"Войти\", Вы принимаете</string>
+    <string name="disclaimer_second_text"><u>условия программы лояльности</u></string>
 </resources>
