@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.andreirookie.shop_test_app.R
 import com.andreirookie.shop_test_app.databinding.FragmentLoggingBinding
 
 class LoggingFragment : Fragment() {
@@ -18,6 +20,11 @@ class LoggingFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentLoggingBinding.inflate(inflater, container, false)
+
+        binding.loggingButton.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_logging_to_navigation_catalog)
+        }
+
         return binding.root
     }
 

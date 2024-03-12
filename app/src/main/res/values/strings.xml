@@ -14,4 +14,9 @@
     <string name="to_log_in">Войти</string>
     <string name="disclaimer_first_text">Нажимая кнопку \"Войти\", Вы принимаете</string>
     <string name="disclaimer_second_text"><u>условия программы лояльности</u></string>
+    <string name="sort_by_popularity">По популярности</string>
+    <string name="sort_by_price_descending">По уменьшению цены</string>
+    <string name="sort_by_price_ascending">По возрастанию цены</string>
+    <string name="filters">Фильтры</string>
+    <string name="show_all">Смотреть все</string>
 </resources>
